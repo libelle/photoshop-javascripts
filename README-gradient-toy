@@ -1,0 +1,72 @@
+==========================================================================
+GRADIENT TOY JAVASCRIPT
+==========================================================================
+--------------------------------------------------------------------------
+WHAT THE MAJOR OPTIONS MEAN
+--------------------------------------------------------------------------
+
+Gradient Patterns:
+- Circles: concentric circular gradients
+- Radial: radiating spokes cycling through gradient colors
+- Linear: a standard directional gradient
+
+Gradient Type:
+- Stepped: one cycle of the gradient fades the foreground color to
+  the background color, the next cycle fads the background color to
+  the foreground color, and so on.
+- Triangle Wave: Each cycle of the gradient fades the foreground color
+  to the background color.
+- Sine Wave: like the Stepped gradient, but the change in color
+  goes as a sine wave rather than linear fade.
+
+Number of Cycles:
+- number of times to cycle between the foreground and background colors
+
+--------------------------------------------------------------------------
+CIRCLE GRADIENT OPTIONS
+--------------------------------------------------------------------------
+- Stroke width: how wide to make each band of color
+- Stroke width change: how much to change the stroke width after each
+  stroke is painted (in percent).
+
+- Calculate using Full Document: center is document center, number of
+  cycles computed as if the full document was being painted
+or
+- Calculate using Selected Region: center is selection center, number
+  of cycles computed across selection
+
+  - Fill type fit to selection: paint the largest circle that will fit
+    entirely within the selection.
+  or
+  - Fill type fill selection: paint circle such that they will fill
+    the entire selection
+
+
+--------------------------------------------------------------------------
+RADIAL GRADIENT OPTIONS
+--------------------------------------------------------------------------
+- Steps per Cycle: number of radial lines to paint in the procession from
+  foreground color to background color.
+- Anti-alias Mode:
+  none: just paint the radial spokes
+  soft: anti-aliases the spoke edges
+  sharper: draws an extra line on the borders between spokes
+
+- Calculate using Full Document: center is document center
+or
+- Calculate using Selected Region: center is selection center
+
+  - Fill type fit to selection: paint the largest spoke that will fit
+    entirely within the selection.
+  or
+  - Fill type fill selection: paint spokes such that they will fill
+    the entire selection
+
+--------------------------------------------------------------------------
+LINEAR GRADIENT OPTIONS
+--------------------------------------------------------------------------
+- Stroke width: how wide to make each band of color
+- Stroke width change: how much to change the stroke width after each
+  stroke is painted (in percent).
+- Angle: direction to draw gradient (in degrees). 0 degrees is pattern
+  repeating from top to bottom of screen, 90 degrees is from left to right.

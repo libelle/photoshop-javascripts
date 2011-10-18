@@ -1,0 +1,108 @@
+==========================================================================
+PHOTOSHOP JAVASCRIPTS
+==========================================================================
+--------------------------------------------------------------------------
+WHAT'S HERE:
+--------------------------------------------------------------------------
+
+optsys.jsx          - Option input/management system
+utilities.jsx       - Various common functions
+gradientsys.jsx     - simple gradient calculation functions
+
+optsys-testcase.jsx - Example for optsys, and test case
+gradient-toy.jsx    - Another example, used for generating various
+                      repeating gradient fills
+
+--------------------------------------------------------------------------
+HOW TO USE:
+--------------------------------------------------------------------------
+
+The Testcase:
+Load up Photoshop.
+Create a new file to work on.
+Use File > Scripts > Browse ...
+Select optsys-testcase.jsx
+Respond to the Dialog box.
+Look at your file - there's now a layer with the option values.
+
+Gradient Toy:
+Load up Photoshop.
+Create a new file to work on.
+Optionally select a region.
+Select a foreground and background color (used by the gradient)
+Use File > Scripts > Browse ...
+Select gradient-toy.jsx
+Respond to the Dialog box.
+Wait for it to render.
+
+--------------------------------------------------------------------------
+ALTERNATIVE USE:
+--------------------------------------------------------------------------
+
+Load up the ExtendScript Toolkit.
+Load up Photoshop.
+Load the Javascript of choice into ExtendScript Toolkit.
+Now do whatever Photoshoppy stuff you want, but simply hit the
+   "run" button in ExtendScript Toolkit when you want to run the
+   script(s). This is better if you wish to run the script multiple
+   times, and/or get debug output, set breakpoints, etc.
+
+
+--------------------------------------------------------------------------
+THE REAL PURPOSE
+--------------------------------------------------------------------------
+These are designed for you to use as a basis for your own projects.
+
+--------------------------------------------------------------------------
+DISCLAIMER
+--------------------------------------------------------------------------
+Developed and tested using Photoshop CS5 on Mac OS X. The scripts may
+need minor tweaks for other Photoshop versions or operating systems. 
+
+These are all bits of projects that I do after a long day of coding or
+otherwise fighting the forces of darkness. They are a way of relaxing and
+playing. The code quality is of the "hm, that seems to work" variety,
+and should not be used for anything mission critical without serious
+review. Now, I have no idea what Photoshop scripts could possibly qualify
+as mission critical, but I figure the above is fair warning. Just keep
+in mind that I've usually had a glass or seventy of wine by the time I
+get to working on these scripts.
+
+--------------------------------------------------------------------------
+CONTACT
+--------------------------------------------------------------------------
+If you find any particularly interesting use for these, let me know!
+Samuel Goldstein, <samuelg@fogbound.net>
+
+--------------------------------------------------------------------------
+LICENSE (tl;dr -> BSD)
+--------------------------------------------------------------------------
+Copyright (c) 2011, Samuel Goldstein
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    Neither the name of Samuel Goldstein nor the names of contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CON-
+SEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUB-
+STITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
