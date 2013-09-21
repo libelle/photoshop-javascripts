@@ -12,6 +12,8 @@ gradientsys.jsx     - simple gradient calculation functions
 optsys-testcase.jsx - Example for optsys, and test case
 gradient-toy.jsx    - Another example, used for generating various
                       repeating gradient fills
+flocker.jsx         - Another example, used for spraying bitmaps
+                      around a document.
 
 --------------------------------------------------------------------------
 HOW TO USE:
@@ -32,6 +34,15 @@ Optionally select a region.
 Select a foreground and background color (used by the gradient)
 Use File > Scripts > Browse ...
 Select gradient-toy.jsx
+Respond to the Dialog box.
+Wait for it to render.
+
+Flocker:
+Load up Photoshop.
+Create a new file to work on.
+Select a layer or a froup of layers.
+Use File > Scripts > Browse ...
+Select flocker.jsx
 Respond to the Dialog box.
 Wait for it to render.
 
@@ -77,7 +88,7 @@ Samuel Goldstein, <samuelg@fogbound.net>
 --------------------------------------------------------------------------
 LICENSE (tl;dr -> BSD)
 --------------------------------------------------------------------------
-Copyright (c) 2011, Samuel Goldstein
+Copyright (c) 2013, Samuel Goldstein
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
